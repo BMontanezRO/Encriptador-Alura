@@ -153,11 +153,12 @@ aside{
     visibility: hidden;
      } 
  .muneco{
-    margin: 15% 10% 10% 10% ;
+    margin: 15% 10% 18% 10% ;
     align-items: center;
-    width: 336px;
-    height: 304px;
+    width: 22vw;
+    height: 22vw;
     z-index: 100;
+  
     }
  .no_mensaje{
     font-size: 24px;
@@ -174,7 +175,8 @@ aside{
     font-size: 16px;
     font-style: inter;
     color: #0A3871;
-    height: 50px;
+    height: 6VW;
+    width: 16VW;
     margin: auto;
     padding: 0 15%;
     
@@ -257,8 +259,12 @@ margin: 5%;
     }
 .muneco{
     margin: 10% 25%;
-    width: 336px;
-    height: 304px; 
+    width: 45vw;
+    height: 40vw 
+    }
+ .text_area_desencriptar{
+width: 70%;
+margin: -10%;
     }
 .no_mensaje{
     margin: 20% 0 -10% 0;
@@ -294,12 +300,13 @@ margin: 5%;
   display: none;
     }
  .posicion_text_area{
-display: flex;
+   display: flex;
    align-items: center;
    justify-content: center;
     }
  .text_area_desencriptar{
-    padding:40px;
+    width: 60vw;
+    height: 30vw;
     }
  .posision_answer{
     display:flex;
