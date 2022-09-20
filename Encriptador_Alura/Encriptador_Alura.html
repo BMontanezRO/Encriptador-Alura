@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="Encriptador_Estilos.css">
+    <script src="encriptador_js.js"></script>
+    <title>Encriptador - Alura</title>
+</head>
+<body>
+    <div class="contenedor_all">
+            <header class="header_a"> 
+                      <a href="https://www.aluracursos.com/" target="_blank" > <img src="imagenes/alura-logo.1647533644.png" class="logo_blanco"></a>
+                      <a href="https://github.com/BMontanezRO" target="_blank"> <img src="imagenes/github-white-2ffa9db8c744260083289a6da771d8bc.png" class="git_imagen"></a>
+            </header> 
+                    <div class="caja_ingresar_texto">
+                       <textarea class="text_area_ingresar_texto" id="ingresar_texto" placeholder=" Ingrese texto aqui"></textarea>
+                    </div>
+                    <div class="caja_informacion">
+                        <img class="imagen_vector"src="imagenes/Vector.png" >
+                        <p class="info">Solo letras minúsculas y sin acentos</p>
+                    </div>            
+                    <div class="caja_encriptar_button">
+                        <button class="boton_encriptar" onclick="encrypt()">Encriptar</button>
+                    </div>                             
+                    <div class="caja_desencriptar_button">
+                        <button class="boton_desencriptar"  onclick="decrypt()">Desencriptar</button>
+                    </div>           
+                    <aside class="caja_barra_lateral">
+                                <img class="muneco" id="toy" src="imagenes/Muñeco.png" alt="">                                                    
+                                <div class="posision_answer">
+                                    <textarea id="answer" class="answer_text" ></textarea>  
+                                </div>                                                    
+                                <p class="no_mensaje" id="eliminar_mensaje">No se ha encontrado ningun mensaje</p>       
+                                <div class="posicion_text_area">                
+                                    <textarea class="text_area_desencriptar" cols="30" rows="10" placeholder="Ingrese el texto que desea encriptar o desencriptar" id="eliminar_mensaje_2"></textarea>        
+                                </div>                                         
+                                <button class="copiar_button" id="copy_button" onclick="copiarTexto()">Copiar</button>                
+                    </aside>
+                    <input type="hidden" id="encryptedText">
+
+    </div>
+     
+
+</body>
+</html>
