@@ -139,16 +139,14 @@ aside{
     }
 .posision_answer{
     position: relative;
-    height: 70vh;
-    top:-70px;
+    height: 60vh;
+    top:-30vw;
     }
- .answer_text {
-    position: relative;
-    top:-63%;  
+ .answer_text { 
     width:80%;
     height: 50%;
     overflow:hidden;
-    margin: 7%;
+    margin: 8px;
     outline: 0; 
     visibility: hidden;
      } 
